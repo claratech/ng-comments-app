@@ -1,6 +1,6 @@
 {
-  "name": "angular2-hn",
-  "version": "0.0.0",
+  "name": "angular2-cmtapp",
+  "version": "1.0.0",
   "license": "MIT",
   "scripts": {
     "ng": "ng",
@@ -8,7 +8,9 @@
     "build": "ng build",
     "test": "ng test",
     "lint": "ng lint",
-    "e2e": "ng e2e"
+    "e2e": "ng e2e",
+    "build.prod": "ng build --aot --prod --progress false --base-href \"https://claratech.github.io/ng-comments-app/\""
+  
   },
   "private": true,
   "dependencies": {
@@ -21,7 +23,9 @@
     "@angular/platform-browser": "^4.0.0",
     "@angular/platform-browser-dynamic": "^4.0.0",
     "@angular/router": "^4.0.0",
+    "angular2-moment": "^1.5.0",
     "core-js": "^2.4.1",
+    "moment": "^2.18.1",
     "rxjs": "^5.1.0",
     "zone.js": "^0.8.4"
   },

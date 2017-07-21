@@ -1,0 +1,2 @@
+Notes
+this app is modified version of angular2-hn-master
